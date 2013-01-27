@@ -14,7 +14,7 @@
  * created if they didin't exist before
  */
 
-define('CIUnit', '0.17');
+define('CIUnit', '1.0');
 
 require_once (dirname(__FILE__) . '/../application/third_party/CIUnitTest/bootstrap_phpunit.php');
 
