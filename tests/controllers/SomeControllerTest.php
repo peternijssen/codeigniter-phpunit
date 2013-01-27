@@ -1,18 +1,19 @@
 <?php
 
+use Symfony\Component\DomCrawler\Crawler;
+
 /**
  * @group Controller
  */
-use Symfony\Component\DomCrawler\Crawler;
 
 class SomeControllerTest extends CIUnit_TestCase
 {
-    public function setUp()
-    {
-        // Set the tested controller
-        $this->CI = set_controller('welcome');
-    }
-    
+	public function setUp()
+	{
+		// Set the tested controller
+		$this->CI = set_controller('welcome');
+	}
+	
     public function testWelcomeController()
     {
 
