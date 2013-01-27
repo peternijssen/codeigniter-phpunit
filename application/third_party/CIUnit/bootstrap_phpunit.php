@@ -1,18 +1,10 @@
 <?php
-
-/*
-echo '<pre>';
-var_dump($GLOBALS);
-echo '</pre>';
-exit;
-*/
-
 /*
  * ------------------------------------------------------
  *  CIUnit Version
  * ------------------------------------------------------
  */
-	define('CIUnit_Version', '0.18-dev_for_CI2.1.0');
+	define('CIUnit_Version', '0.20');
 
 /*
  *---------------------------------------------------------------
@@ -251,6 +243,9 @@ exit;
  * And away we go...
  *
  */
+
+// Load composer packages
+require_once '../vendor/autoload.php';
 
 // Load the CIUnit CodeIgniter Core
 require_once CIUPATH . 'core/CodeIgniter.php';
